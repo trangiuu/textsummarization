@@ -8,8 +8,6 @@ import regex as re
 from sklearn.metrics.pairwise import cosine_similarity
 import networkx as nx
 
-
-
 input_text = st.text_area("Nhập đoạn văn bản cần tóm tắt",height=600)
 btntomtat=st.button("Tóm tắt")
 

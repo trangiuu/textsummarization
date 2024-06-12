@@ -10,7 +10,7 @@ import networkx as nx
 
 stopword=stopwords
 #tiền xử lý dữ liệu
-#tách đoạn thành câu riêng lẻ
+#tách đoạn thành các câu riêng lẻ
 
 def text_sentence(text):
     sentence=sent_tokenize(text)
