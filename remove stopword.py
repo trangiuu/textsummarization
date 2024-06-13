@@ -18,7 +18,7 @@ def text_remove_stopword(text,stopword):
 
 #lưu dataset thành file mới, đã xóa stopwords
 
-# with open('newcontent.txt', 'w',encoding='utf-8') as fp: 
-#     for line in open('news_categories.txt',encoding='utf-8'):
-#         line = text_remove_stopword(line,stopwords) 
-#         fp.write(line + '\n') 
+with open('newcontent.txt', 'w',encoding='utf-8') as fp: 
+for line in open('news_categories.txt',encoding='utf-8'):
+line = text_remove_stopword(line,stopwords) 
+fp.write(line + '\n') 
